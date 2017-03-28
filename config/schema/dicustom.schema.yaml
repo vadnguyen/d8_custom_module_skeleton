@@ -1,0 +1,7 @@
+dicustom.config:
+  type: config_object
+  label: 'DI Config'
+  mapping:
+    message:
+      type: text
+      label: 'Message'

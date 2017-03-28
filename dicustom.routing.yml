@@ -1,0 +1,15 @@
+dicustom.di_page:
+  path: '/di_page/page'
+  defaults:
+    _controller: '\Drupal\dicustom\Controller\DiCustomController::dipage'
+    _title: 'My first page in D8'
+  requirements:
+    _permission: 'access content'
+
+dicustom.di_custom_form:
+  path: '/di_page/form'
+  defaults:
+    _form: '\Drupal\dicustom\Form\ContributeForm'
+    _title: 'My form'
+  requirements:
+    _permission: 'access content'    

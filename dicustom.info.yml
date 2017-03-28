@@ -1,0 +1,7 @@
+name: 'DI Custom Module'
+type: module
+description: 'Adds new page'
+package: Other
+core: 8.x
+dependencies:
+  - node

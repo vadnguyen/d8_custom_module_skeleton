@@ -1,0 +1,5 @@
+hello.config:
+  title: 'DI CUstom Translatable config'
+  base_route_name: dicustom.admin.config
+  names:
+    - dicustom.config
